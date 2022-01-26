@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="E-Commerce Website">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Alwin Sunny">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cart - SampleKart</title>
+    <!-- Main CSS, JS Files -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <div class="header">
+        <table>
+            <tr>
+                <td><i>
+                        <h1><a href="index.html">SampleKart</a></h1>
+                    </i></td>
+                <td><input class="search" type="text" placeholder="Search for Products, Brands and More"></td>
+                <td><button class="searchbutton">Search</button></td>
+                <td style="text-align: right;">
+                    <h3><a href="#">John Doe</a></h3>
+                </td>
+        </table>
+        <!-- Navbar -->
+        <ul>
+            <li><b><a href="cart.html">MY CART</a></b></li>
+            <li><b><a href="#">MY ORDERS</a></b></li>
+        </ul>
+        <!-- End Navbar -->
+    </div>
+    <!-- End Header Section -->
+    <!-- Main Section -->
+    <h2>MY CART</h2>
+    <div class="main">
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Image</th>
+                <th>Rate</th>
+                <th>Quantity</th>
+                <th>Amount</th>
+                <th>Action</th>
+            </tr>
+            <tr>
+                <td>Casio</td>
+                <td><img src='assets/img/calculator.jpg' height='50px'></td>
+                <td>₹600</td>
+                <td><a href="#" style="color: #2874f0;">+</a> 2 <a href="#" style="color: #2874f0;">-</a></td>
+                <td>₹1200</td>
+                <td>
+                    <a href="#" style="color: red;">Remove</a>
+                </td>
+            </tr>
+            <tr>
+                <td>HP</td>
+                <td><img src='assets/img/laptop.jpg' height='50px'></td>
+                <td>₹50000</td>
+                <td><a href="#" style="color: #2874f0;">+</a> 1 <a href="#" style="color: #2874f0;">-</a></td>
+                <td>₹50000</td>
+                <td>
+                    <a href="#" style="color: red;">Remove</a>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Total</b></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>
+                    <b>₹51200</b>
+                </td>
+        </table><br>
+        <a href='order.html' style="color: #fb641b;"><button class="button">Place Order</button></a>
+    </div>
+    <!-- End Main Section -->
+    <!-- Footer Section -->
+    <div class="footer">
+        <h3>© Alwin Sunny 2022</h3>
+    </div>
+    <!-- End Footer Section -->
+</body>
+
+</html>
